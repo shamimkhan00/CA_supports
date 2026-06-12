@@ -5,9 +5,9 @@ import { BASE_URL, defaultOpenGraph, defaultTwitter, CONTACT } from '@/lib/seo';
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: 'Contact CA Support India – Book Free CA Consultation | +91 98765 43210',
+  title: 'Contact CA Support India – Book Free CA Consultation | +91 91233 29927',
   description:
-    'Contact CA Support India for a free 30-minute CA consultation. Call +91 98765 43210 or email info@caonweb.in. Office in Connaught Place, New Delhi. Responds within 2 hours. Pan-India service.',
+    'Contact CA Support India for a free 30-minute CA consultation. Call +91 91233 29927 or email info@caonweb.in. Office in Connaught Place, New Delhi. Responds within 2 hours. Pan-India service.',
   keywords: [
     'contact CA Support India', 'CA consultation online', 'book CA appointment',
     'free CA consultation India', 'CA helpline India', 'chartered accountant contact',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     ...defaultOpenGraph,
     title: 'Contact CA Support India – Book Free CA Consultation',
-    description: 'Book a free CA consultation. Call +91 98765 43210 · Responds within 2 hours · Pan-India service.',
+    description: 'Book a free CA consultation. Call +91 91233 29927 · Responds within 2 hours · Pan-India service.',
     url: `${BASE_URL}/contact`,
   },
   twitter: {

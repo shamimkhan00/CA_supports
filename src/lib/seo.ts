@@ -5,9 +5,9 @@ export const SITE_TAGLINE = 'Expert CA & CS Services Online India';
 export const DEFAULT_OG_IMAGE = `${BASE_URL}/og-image.jpg`;
 
 export const CONTACT = {
-  phone: '+91 98765 43210',
+  phone: '+91 91233 29927',
   email: 'info@caonweb.in',
-  address: '123 Financial District, Connaught Place, New Delhi – 110001',
+  // address: '123 Financial District, Connaught Place, New Delhi – 110001',
   city: 'New Delhi',
   state: 'Delhi',
   country: 'IN',

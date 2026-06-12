@@ -5,9 +5,9 @@ import { BreadcrumbSchema } from '@/lib/jsonld';
 import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'About CA Support India – India\'s Trusted CA & CS Platform Since 2009',
+  title: 'About CA Support India – Your Trusted Online CA & CS Platform',
   description:
-    'Learn about CA Support India — founded in 2009, 50+ certified CAs & CSs, 10,000+ clients across India. Our mission is to make professional CA services accessible, affordable, and technology-driven for every Indian.',
+    'Learn about CA Support India — founded in 2023, offering expert certified CAs & CSs serving over 1,000 clients across 5 states. Making professional corporate compliance and tax services accessible, affordable, and technology-driven.',
   keywords: [
     'about CA Support India', 'CA Support India company', 'chartered accountant firm India',
     'best CA firm online India', 'trusted CA services India', 'ICAI registered CA',
@@ -15,22 +15,22 @@ export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/about` },
   openGraph: {
     ...defaultOpenGraph,
-    title: 'About CA Support India – India\'s Trusted CA & CS Platform Since 2009',
-    description: 'Founded 2009. 50+ certified CAs & CSs. 10,000+ clients. Making professional CA services accessible across all of India.',
+    title: 'About CA Support India – Your Trusted Online CA & CS Platform',
+    description: 'Founded 2023. Expert team of CAs & CSs. 1,000+ clients across 5 states. Making professional tax and corporate services accessible and clear.',
     url: `${BASE_URL}/about`,
   },
   twitter: {
     ...defaultTwitter,
-    title: 'About CA Support India | Trusted Since 2009',
-    description: '50+ certified CAs & CSs. 10,000+ clients. Pan-India CA services.',
+    title: 'About CA Support India | Trusted Online CA & CS',
+    description: 'Expert certified CAs & CSs. 1,000+ clients across 5 states. Modern financial compliance.',
   },
 };
 
 const team = [
-  { name: 'CA Anand Sharma', role: 'Founder & Managing Director', exp: '20+ years', spec: 'Corporate Tax & Restructuring', initials: 'AS' },
-  { name: 'CA Priya Mehta', role: 'Partner – Audit & Assurance', exp: '15+ years', spec: 'Statutory Audit & IFRS', initials: 'PM' },
-  { name: 'CS Rohit Verma', role: 'Partner – Corporate Law', exp: '12+ years', spec: 'Company Law & Secretarial', initials: 'RV' },
-  { name: 'CA Neha Singh', role: 'Head – GST Practice', exp: '10+ years', spec: 'GST Advisory & Litigation', initials: 'NS' },
+  { name: 'CA Anand Sharma', role: 'Founder & Managing Director', exp: '15+ years', spec: 'Corporate Tax & Restructuring', initials: 'AS' },
+  { name: 'CA Priya Mehta', role: 'Partner – Audit & Assurance', exp: '10+ years', spec: 'Statutory Audit & Tax Compliance', initials: 'PM' },
+  { name: 'CS Rohit Verma', role: 'Partner – Corporate Law', exp: '8+ years', spec: 'Company Law & Business Registrations', initials: 'RV' },
+  { name: 'CA Neha Singh', role: 'Head – GST Practice', exp: '7+ years', spec: 'GST Advisory & Filing', initials: 'NS' },
 ];
 
 const values = [
@@ -58,7 +58,7 @@ export default function AboutPage() {
               About CA Support India
             </h1>
             <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-              India's most trusted online platform for Chartered Accountant and Company Secretary services — making compliance simple since 2009.
+              A modern, technology-driven platform for Chartered Accountant and Company Secretary services — simplifying business compliance since 2023.
             </p>
           </div>
         </header>
@@ -71,13 +71,13 @@ export default function AboutPage() {
                 <span className="text-[var(--gold)] text-xs font-semibold tracking-widest uppercase">Our Story</span>
               </div>
               <h2 id="our-story-heading" className="font-display text-3xl font-bold text-[var(--navy)] mb-6 gold-line">
-                Built to Make CA Services Accessible to Every Indian
+                Built to Make CA Services Accessible and Transparent
               </h2>
               <p className="text-[var(--muted)] leading-relaxed mb-4">
-                CA Support India was founded in 2009 with a simple yet powerful belief: every individual and business in India — whether in a metro or a tier-3 town — deserves access to qualified, affordable, and technology-driven CA and legal services.
+                CA Support India was established in 2023 with a clear objective: to dismantle the complexities of corporate compliance, tax filing, and financial accounting for growing businesses and individuals. 
               </p>
               <p className="text-[var(--muted)] leading-relaxed mb-6">
-                Lengthy phone calls, sky-high hourly fees, and opacity in billing were the norm. We set out to change that. Today, with over 10,000 satisfied clients and thousands of successful filings across 28 states, we are India's go-to platform for financial compliance done right.
+                Recognizing that traditional accounting workflows often involve opaque pricing and slow response times, we built a digital-first consultancy platform. By combining seasoned professional expertise with streamlined communication channels, we have quickly grown to support over 1,000 trusted clients across 5 states, delivering precision-focused financial solutions.
               </p>
               <Link href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--navy)] text-white rounded-lg font-medium hover:bg-[var(--navy-light)] transition-colors">
@@ -86,10 +86,10 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: '2009', label: 'Founded' },
-                { value: '10,000+', label: 'Clients Served' },
-                { value: '50+', label: 'Expert CAs & CSs' },
-                { value: '28', label: 'States Covered' },
+                { value: '2023', label: 'Founded' },
+                { value: '1,000+', label: 'Clients Served' },
+                { value: '15+', label: 'Expert Team Size' },
+                { value: '5', label: 'States Covered' },
               ].map(s => (
                 <div key={s.label} className="bg-[var(--cream)] rounded-2xl p-6 text-center border border-gray-100">
                   <div className="font-display text-3xl font-bold text-[var(--gold)] mb-1">{s.value}</div>
@@ -121,7 +121,7 @@ export default function AboutPage() {
         </section>
 
         {/* Team */}
-        <section className="py-16 bg-white" aria-labelledby="team-heading">
+        {/* <section className="py-16 bg-white" aria-labelledby="team-heading">
           <div className="max-w-7xl mx-auto px-6">
             <h2 id="team-heading" className="font-display text-3xl font-bold text-[var(--navy)] text-center mb-12">
               Meet Our Leadership Team
@@ -139,8 +139,17 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
+  );
+}
+
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section>
+      <h2 className="font-display text-lg font-bold text-[var(--navy)] mb-3 pb-2 border-b border-gray-100">{title}</h2>
+      <div className="space-y-3">{children}</div>
+    </section>
   );
 }

@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X, Phone, ChevronDown } from 'lucide-react';
+import Image from 'next/image';
 
 const services = [
   { label: 'Company Registration', href: '/services/company-registration' },
@@ -37,9 +38,9 @@ export default function Navbar() {
           <span className="text-gray-300">Professional CA & CS Services Across India</span>
           <div className="flex items-center gap-6">
             <a href="tel:+911234567890" className="flex items-center gap-2 hover:text-[var(--gold)] transition-colors">
-              <Phone size={14} /> +91 98765 43210
+              <Phone size={14} /> +91 91233 29927
             </a>
-            <a href="mailto:info@caweb.in" className="hover:text-[var(--gold)] transition-colors">info@caweb.in</a>
+            <a href="mailto:admin.ca.supports@gmail.com" className="hover:text-[var(--gold)] transition-colors">admin.ca.supports@gmail.com</a>
           </div>
         </div>
       </div>
@@ -49,12 +50,22 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-[var(--navy)] flex items-center justify-center">
-              <span className="text-[var(--gold)] font-bold text-lg font-display">CA</span>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="Company Logo"
+              width={56}
+              height={56}
+              priority
+              className="object-contain"
+            />
+
             <div>
-              <div className="font-display font-bold text-[var(--navy)] text-lg leading-tight">CA Support India</div>
-              <div className="text-[10px] text-[var(--muted)] tracking-widest uppercase">Financial Excellence</div>
+              <div className="font-display font-bold text-[var(--navy)] text-lg leading-tight">
+                CA Support India
+              </div>
+              <div className="text-[10px] text-[var(--muted)] tracking-widest uppercase">
+                Financial Excellence
+              </div>
             </div>
           </Link>
 
@@ -62,7 +73,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
             <Link href="/" className="text-[var(--navy)] hover:text-[var(--gold)] transition-colors">Home</Link>
 
-            <div className="relative" onMouseEnter={() => setServDropdown(true)} onMouseLeave={() => setServDropdown(false)}>
+            {/* <div className="relative" onMouseEnter={() => setServDropdown(true)} onMouseLeave={() => setServDropdown(false)}>
               <button className="flex items-center gap-1 text-[var(--navy)] hover:text-[var(--gold)] transition-colors">
                 Services <ChevronDown size={14} className={`transition-transform ${servDropdown ? 'rotate-180' : ''}`} />
               </button>
@@ -76,8 +87,8 @@ export default function Navbar() {
                   ))}
                 </div>
               )}
-            </div>
-
+            </div> */}
+            <Link href="/services" className="text-[var(--navy)] hover:text-[var(--gold)] transition-colors">Services</Link>
             <Link href="/about" className="text-[var(--navy)] hover:text-[var(--gold)] transition-colors">About Us</Link>
             <Link href="/contact" className="text-[var(--navy)] hover:text-[var(--gold)] transition-colors">Contact</Link>
           </div>

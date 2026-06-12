@@ -10,7 +10,7 @@ import { HomeFAQSchema, ReviewsSchema } from '@/lib/jsonld';
 import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'CA Support India | #1 Online CA & CS Services India – Company Registration, GST, ITR',
+  title: 'CA Support India | Fast & Reliable CA Services for Growing Businesses – Company Registration, GST, ITR',
   description:
     "India's most trusted CA consultation platform. Register a company in 7 days, file GST returns, ITR, trademark registration & more. 10,000+ happy clients. Expert CAs & CSs. Pan-India, 100% online.",
   keywords: [
@@ -175,12 +175,12 @@ export default function Home() {
 
             <div className="bg-white/10 rounded-lg p-4 mb-4">
               <p className="text-xs text-gray-400 mb-1">WhatsApp Consultation</p>
-              <p className="font-semibold text-lg">+91 XXXXX XXXXX</p>
+              <p className="font-semibold text-lg">+91 91233 29927</p>
             </div>
 
             <div className="space-y-3">
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/919123329927"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 bg-green-600 rounded-lg font-semibold hover:bg-green-700 transition-colors"
@@ -235,7 +235,7 @@ export default function Home() {
       </section>
 
       {/* Partners strip */}
-      <section className="py-12 bg-[var(--cream)] border-t border-gray-100" aria-label="Regulatory bodies we work with">
+      {/* <section className="py-12 bg-[var(--cream)] border-t border-gray-100" aria-label="Regulatory bodies we work with">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <p className="text-xs font-semibold tracking-widest uppercase text-[var(--muted)] mb-8">Registered with & Recognised by</p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
@@ -244,7 +244,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

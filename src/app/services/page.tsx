@@ -5,9 +5,9 @@ import { ServicesSchema, BreadcrumbSchema } from '@/lib/jsonld';
 import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA Support India',
+  title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA on Web',
   description:
-    'Explore all CA and CS services by CA Support India — company registration, GST registration, ITR filing, trademark registration, MSME, ROC compliance, and more. Pan-India, 100% online.',
+    'Explore all CA and CS services by CA on Web — company registration, GST registration, ITR filing, trademark registration, MSME, ROC compliance, and more. Pan-India, 100% online.',
   keywords: [
     'CA services online India', 'company registration cost India', 'GST registration fee',
     'income tax return filing charges', 'trademark registration fee India', 'MSME registration online',
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   alternates: { canonical: `${BASE_URL}/services` },
   openGraph: {
     ...defaultOpenGraph,
-    title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA Support India',
+    title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA on Web',
     description: 'All CA & CS services: company registration ₹7,999, GST ₹1,499, ITR ₹999, trademark ₹6,999 and more. Expert team. Pan-India.',
     url: `${BASE_URL}/services`,
   },
   twitter: {
     ...defaultTwitter,
-    title: 'CA & CS Services | CA Support India',
+    title: 'CA & CS Services | CA on Web',
     description: 'Company registration, GST, ITR, trademark, MSME & more. Transparent pricing.',
   },
 };
@@ -87,8 +87,8 @@ export default function ServicesPage() {
                     <span className="text-xs text-gray-400 flex items-center gap-1">
                       <Clock size={12} aria-hidden="true" /> <span>Turnaround: {s.time}</span>
                     </span>
-                    <Link href={`/services/${s.title.toLowerCase().replace(/\s+/g, '-')}`} className="text-sm font-medium text-[var(--gold)] hover:underline">
-                      Get Started →
+                    <Link href="/contact" className="text-sm font-medium text-[var(--gold)] hover:underline">
+                      Get Quote →
                     </Link>
                   </div>
                 </article>
@@ -114,3 +114,4 @@ export default function ServicesPage() {
     </>
   );
 }
+// `/services/${s.title.toLowerCase().replace(/\s+/g, '-')}`

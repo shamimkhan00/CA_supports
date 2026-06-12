@@ -62,7 +62,7 @@ export default function Hero() {
             </Link>
             <Link href="/contact"
               className="flex items-center gap-2 px-6 py-3.5 rounded-lg border border-white/20 text-white hover:bg-white/10 transition-colors">
-              Book Free Call
+              Contact Us
             </Link>
           </div>
 
@@ -83,10 +83,10 @@ export default function Hero() {
 
             <div className="grid grid-cols-2 gap-6 mb-8">
               {[
-                { value: '10,000+', label: 'Happy Clients' },
-                { value: '5,000+', label: 'Companies Registered' },
+                { value: '1000+', label: 'Happy Clients' },
+                { value: '50+', label: 'Companies Registered' },
                 { value: '98%', label: 'Client Satisfaction' },
-                { value: '15+', label: 'Years Experience' },
+                { value: '5+', label: 'Years Experience' },
               ].map(stat => (
                 <div key={stat.label} className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <div className="font-display text-3xl font-bold text-[var(--gold)]">{stat.value}</div>
@@ -102,11 +102,11 @@ export default function Hero() {
               </p>
               <div className="flex items-center gap-3 mt-4">
                 <div className="w-9 h-9 rounded-full bg-[var(--gold)]/20 flex items-center justify-center text-[var(--gold)] font-bold text-sm">
-                  RK
+                  AP
                 </div>
                 <div>
-                  <div className="text-white text-sm font-medium">Rajesh Kumar</div>
-                  <div className="text-gray-500 text-xs">Founder, TechStart Pvt. Ltd.</div>
+                  <div className="text-white text-sm font-medium">Akash Prasad</div>
+                  <div className="text-gray-500 text-xs">Founder</div>
                 </div>
               </div>
             </div>

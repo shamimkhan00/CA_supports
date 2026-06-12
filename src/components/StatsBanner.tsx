@@ -1,6 +1,6 @@
 const stats = [
-  { value: '10,000+', label: 'Happy Clients' },
-  { value: '5,000+', label: 'Companies Registered' },
+  { value: '1000+', label: 'Happy Clients' },
+  { value: '50+', label: 'Companies Registered' },
   { value: '98%', label: 'Positive Feedback' },
   { value: '50+', label: 'Certified CA & CS' },
 ];

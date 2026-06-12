@@ -14,11 +14,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: `${SITE_NAME} | Expert CA & CS Services Online India`,
+    default: `${SITE_NAME} | Fast & Reliable CA Services for Growing Businesses`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "India's #1 online CA consultation platform. Expert Chartered Accountant & Company Secretary services — company registration, GST, income tax return, trademark, MSME, and compliance. Pan-India, fast & affordable.",
+    "Fast & Reliable CA Services for Growing Businesses. Expert Chartered Accountant & Company Secretary services — company registration, GST, income tax return, MSME, and compliance. Pan-India, fast & affordable.",
   keywords: [
     'CA online India',
     'chartered accountant online',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     ...defaultOpenGraph,
     title: `${SITE_NAME} | Expert CA & CS Services Online India`,
     description:
-      "India's #1 CA consultation platform. Company registration, GST, ITR, trademark and compliance — expert CA & CS team, transparent pricing, pan-India.",
+      "Fast & Reliable CA Services for Growing Businesses. Company registration, GST, ITR, trademark and compliance — expert CA & CS team, transparent pricing, pan-India.",
     url: BASE_URL,
   },
   twitter: {
