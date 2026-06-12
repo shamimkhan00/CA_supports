@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   alternates: { canonical: BASE_URL },
   openGraph: {
     ...defaultOpenGraph,
-    title: `${SITE_NAME} | #1 Online CA & CS Services – Company Registration, GST, ITR`,
+    title: `${SITE_NAME} | Fast & Reliable CA Services for Growing Businesses`,
     description:
       "India's most trusted CA platform. Register a company in 7 days, GST, ITR, trademark & compliance. 10,000+ clients.",
     url: BASE_URL,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     ...defaultTwitter,
-    title: `${SITE_NAME} | #1 Online CA & CS Services India`,
+    title: `${SITE_NAME} | Fast & Reliable CA Services for Growing Businesses`,
     description: 'Company registration, GST, ITR, trademark. Expert CAs. 10,000+ clients. Pan-India.',
   },
 };
