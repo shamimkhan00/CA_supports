@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     'LLP registration',
     'TDS return filing',
     'FSSAI license',
-    'CA on web',
+    'CA Support India',
     'caonweb',
   ],
   authors: [{ name: SITE_NAME, url: BASE_URL }],

@@ -33,7 +33,7 @@ export default function Hero() {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--gold)]/10 border border-[var(--gold)]/30 mb-6">
             <span className="w-2 h-2 rounded-full bg-[var(--gold)] animate-pulse"></span>
-            <span className="text-[var(--gold)] text-sm font-medium">India's #1 CA Consultation Platform</span>
+            <span className="text-[var(--gold)] text-sm font-medium">Fast & Reliable CA Services for Growing Businesses</span>
           </div>
 
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
@@ -98,7 +98,7 @@ export default function Hero() {
             {/* Testimonial snippet */}
             <div className="border-t border-white/10 pt-6">
               <p className="text-gray-300 text-sm italic leading-relaxed">
-                "CA on Web helped us incorporate our company in just 8 days. Professional, transparent, and truly expert service."
+                "CA Support India helped us incorporate our company in just 8 days. Professional, transparent, and truly expert service."
               </p>
               <div className="flex items-center gap-3 mt-4">
                 <div className="w-9 h-9 rounded-full bg-[var(--gold)]/20 flex items-center justify-center text-[var(--gold)] font-bold text-sm">

@@ -5,25 +5,25 @@ import { ServicesSchema, BreadcrumbSchema } from '@/lib/jsonld';
 import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA on Web',
+  title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA Support India',
   description:
-    'Explore all CA and CS services by CA on Web — company registration from ₹7,999, GST registration from ₹1,499, ITR filing from ₹999, trademark registration, MSME, ROC compliance, and more. Pan-India, 100% online.',
+    'Explore all CA and CS services by CA Support India — company registration, GST registration, ITR filing, trademark registration, MSME, ROC compliance, and more. Pan-India, 100% online.',
   keywords: [
     'CA services online India', 'company registration cost India', 'GST registration fee',
     'income tax return filing charges', 'trademark registration fee India', 'MSME registration online',
-    'import export code registration', 'ROC compliance India', 'accounting services India',
+    'ROC compliance India', 'accounting services India',
     'FSSAI license online', 'TDS return filing', 'payroll services India',
   ],
   alternates: { canonical: `${BASE_URL}/services` },
   openGraph: {
     ...defaultOpenGraph,
-    title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA on Web',
+    title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA Support India',
     description: 'All CA & CS services: company registration ₹7,999, GST ₹1,499, ITR ₹999, trademark ₹6,999 and more. Expert team. Pan-India.',
     url: `${BASE_URL}/services`,
   },
   twitter: {
     ...defaultTwitter,
-    title: 'CA & CS Services | CA on Web',
+    title: 'CA & CS Services | CA Support India',
     description: 'Company registration, GST, ITR, trademark, MSME & more. Transparent pricing.',
   },
 };
@@ -34,7 +34,7 @@ const allServices = [
   { icon: FileText, title: 'Income Tax Return', price: '₹999', time: '1–2 days', desc: 'ITR filing for salaried employees, self-employed, NRIs, HUFs, and companies. Tax computation and e-filing included.' },
   { icon: Tag, title: 'Trademark Registration', price: '₹6,999', time: '15–20 days', desc: 'Brand protection via trademark application under all 45 classes — includes trademark search, filing, and objection handling.' },
   { icon: Package, title: 'MSME / Udyam', price: '₹999', time: '1–2 days', desc: 'Udyam registration for micro, small, and medium enterprises to access subsidies, bank loans, and priority lending.' },
-  { icon: Globe, title: 'Import Export Code', price: '₹2,499', time: '3–5 days', desc: 'IEC registration from DGFT for businesses importing or exporting goods and services from India. Lifetime validity.' },
+  // { icon: Globe, title: 'Import Export Code', price: '₹2,499', time: '3–5 days', desc: 'IEC registration from DGFT for businesses importing or exporting goods and services from India. Lifetime validity.' },
   { icon: Scale, title: 'ROC Compliance', price: '₹4,999', time: '5–7 days', desc: 'Annual ROC return filing, financial statements, and MCA compliance for Private Limited Companies and LLPs.' },
   { icon: BarChart3, title: 'Accounting Services', price: '₹2,999/mo', time: 'Ongoing', desc: 'Monthly bookkeeping, P&L statement, balance sheet, and MIS reporting — keep your finances organised year-round.' },
   { icon: Shield, title: 'FSSAI Food License', price: '₹3,499', time: '15–30 days', desc: 'State or Central FSSAI registration and license for food manufacturers, traders, and food business operators.' },
@@ -79,7 +79,7 @@ export default function ServicesPage() {
                     <div className="w-12 h-12 rounded-xl bg-[var(--navy)] flex items-center justify-center" aria-hidden="true">
                       <Icon size={22} className="text-[var(--gold)]" />
                     </div>
-                    <span className="text-[var(--gold)] font-bold font-display text-lg">{s.price}</span>
+                    {/* <span className="text-[var(--gold)] font-bold font-display text-lg">{s.price}</span> */}
                   </div>
                   <h2 className="font-display font-semibold text-[var(--navy)] text-lg mb-2">{s.title}</h2>
                   <p className="text-[var(--muted)] text-sm leading-relaxed mb-4">{s.desc}</p>
@@ -87,7 +87,7 @@ export default function ServicesPage() {
                     <span className="text-xs text-gray-400 flex items-center gap-1">
                       <Clock size={12} aria-hidden="true" /> <span>Turnaround: {s.time}</span>
                     </span>
-                    <Link href="/contact" className="text-sm font-medium text-[var(--gold)] hover:underline">
+                    <Link href={`/services/${s.title.toLowerCase().replace(/\s+/g, '-')}`} className="text-sm font-medium text-[var(--gold)] hover:underline">
                       Get Started →
                     </Link>
                   </div>

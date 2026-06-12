@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: 'Shiv Kumar',
     role: 'Business Owner, New Delhi',
-    text: 'CA on Web has been incredibly helpful. Their team is professional, knowledgeable, and always available. Highly recommend for GST and company compliance.',
+    text: 'CA Support India has been incredibly helpful. Their team is professional, knowledgeable, and always available. Highly recommend for GST and company compliance.',
     initials: 'SK',
     rating: 5,
   },
@@ -18,14 +18,14 @@ const testimonials = [
   {
     name: 'Tajinder Singh',
     role: 'Founder, Visonia Techlabs',
-    text: 'Our company Visonia Techlabs India Pvt. Ltd. was incorporated on time with 100% accuracy. Thank you CA on Web for the seamless experience!',
+    text: 'Our company Visonia Techlabs India Pvt. Ltd. was incorporated on time with 100% accuracy. Thank you CA Support India for the seamless experience!',
     initials: 'TS',
     rating: 5,
   },
   {
     name: 'Priya Nair',
     role: 'Freelancer, Bangalore',
-    text: "Filing my ITR as an NRI was a nightmare before I found CA on Web. Now it's done in hours, with expert guidance at every step.",
+    text: "Filing my ITR as an NRI was a nightmare before I found CA Support India. Now it's done in hours, with expert guidance at every step.",
     initials: 'PN',
     rating: 5,
   },

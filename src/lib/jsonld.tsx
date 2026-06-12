@@ -101,7 +101,7 @@ export function HomeFAQSchema() {
         name: 'How do I register a Private Limited Company in India?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'You can register a Private Limited Company online through CA on Web in 7–12 working days. The process includes obtaining DSC, DIN, name approval from MCA, and filing SPICe+ form. Our experts handle all documentation.',
+          text: 'You can register a Private Limited Company online through CA Support India in 7–12 working days. The process includes obtaining DSC, DIN, name approval from MCA, and filing SPICe+ form. Our experts handle all documentation.',
         },
       },
       {
@@ -109,15 +109,15 @@ export function HomeFAQSchema() {
         name: 'What is the cost of GST registration in India?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'GST registration through CA on Web starts at ₹1,499 inclusive of professional fees. Government fee for GST registration is nil. The process takes 3–5 working days.',
+          text: 'GST registration through CA Support India starts at ₹1,499 inclusive of professional fees. Government fee for GST registration is nil. The process takes 3–5 working days.',
         },
       },
       {
         '@type': 'Question',
-        name: 'Can I file my income tax return online through CA on Web?',
+        name: 'Can I file my income tax return online through CA Support India?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. CA on Web offers ITR filing services for salaried individuals, business owners, NRIs, and HUFs. Our CAs compute your tax liability, claim all applicable deductions, and file your return starting at ₹999.',
+          text: 'Yes. CA Support India offers ITR filing services for salaried individuals, business owners, NRIs, and HUFs. Our CAs compute your tax liability, claim all applicable deductions, and file your return starting at ₹999.',
         },
       },
       {
@@ -125,15 +125,15 @@ export function HomeFAQSchema() {
         name: 'How long does trademark registration take in India?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The trademark application filing takes 15–20 days. After filing, the trademark registration certificate is issued in 18–24 months after examination and publication. CA on Web manages the entire process and any objections.',
+          text: 'The trademark application filing takes 15–20 days. After filing, the trademark registration certificate is issued in 18–24 months after examination and publication. CA Support India manages the entire process and any objections.',
         },
       },
       {
         '@type': 'Question',
-        name: 'Is CA on Web available pan-India?',
+        name: 'Is CA Support India available pan-India?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. CA on Web serves clients across all 28 states and 8 union territories of India. All services are delivered 100% online — no physical visit required.',
+          text: 'Yes. CA Support India serves clients across all 28 states and 8 union territories of India. All services are delivered 100% online — no physical visit required.',
         },
       },
     ],
@@ -161,7 +161,7 @@ export function ServicesSchema() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'CA on Web Services',
+    name: 'CA Support India Services',
     description: 'Professional CA and CS services available online across India',
     numberOfItems: services.length,
     itemListElement: services.map((s, i) => ({
@@ -224,21 +224,21 @@ export function ReviewsSchema() {
         '@type': 'Review',
         author: { '@type': 'Person', name: 'Rajesh Kumar' },
         reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-        reviewBody: 'CA on Web helped us incorporate our company in just 8 days. Professional, transparent, and truly expert service.',
+        reviewBody: 'CA Support India helped us incorporate our company in just 8 days. Professional, transparent, and truly expert service.',
         datePublished: '2024-03-15',
       },
       {
         '@type': 'Review',
         author: { '@type': 'Person', name: 'Priya Nair' },
         reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-        reviewBody: 'Filing my ITR as an NRI was a nightmare before I found CA on Web. Now it is done in hours, with expert guidance at every step.',
+        reviewBody: 'Filing my ITR as an NRI was a nightmare before I found CA Support India. Now it is done in hours, with expert guidance at every step.',
         datePublished: '2024-04-02',
       },
       {
         '@type': 'Review',
         author: { '@type': 'Person', name: 'Tajinder Singh' },
         reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-        reviewBody: 'Our company was incorporated on time with 100% accuracy. Thank you CA on Web for the seamless experience!',
+        reviewBody: 'Our company was incorporated on time with 100% accuracy. Thank you CA Support India for the seamless experience!',
         datePublished: '2024-05-10',
       },
     ],

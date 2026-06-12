@@ -5,23 +5,23 @@ import { BASE_URL, defaultOpenGraph, defaultTwitter, CONTACT } from '@/lib/seo';
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: 'Contact CA on Web – Book Free CA Consultation | +91 98765 43210',
+  title: 'Contact CA Support India – Book Free CA Consultation | +91 98765 43210',
   description:
-    'Contact CA on Web for a free 30-minute CA consultation. Call +91 98765 43210 or email info@caonweb.in. Office in Connaught Place, New Delhi. Responds within 2 hours. Pan-India service.',
+    'Contact CA Support India for a free 30-minute CA consultation. Call +91 98765 43210 or email info@caonweb.in. Office in Connaught Place, New Delhi. Responds within 2 hours. Pan-India service.',
   keywords: [
-    'contact CA on web', 'CA consultation online', 'book CA appointment',
+    'contact CA Support India', 'CA consultation online', 'book CA appointment',
     'free CA consultation India', 'CA helpline India', 'chartered accountant contact',
   ],
   alternates: { canonical: `${BASE_URL}/contact` },
   openGraph: {
     ...defaultOpenGraph,
-    title: 'Contact CA on Web – Book Free CA Consultation',
+    title: 'Contact CA Support India – Book Free CA Consultation',
     description: 'Book a free CA consultation. Call +91 98765 43210 · Responds within 2 hours · Pan-India service.',
     url: `${BASE_URL}/contact`,
   },
   twitter: {
     ...defaultTwitter,
-    title: 'Contact CA on Web | Free Consultation',
+    title: 'Contact CA Support India | Free Consultation',
     description: 'Book a free CA consultation. Responds within 2 hours.',
   },
 };
@@ -41,7 +41,7 @@ export default function ContactPage() {
               <span className="text-gray-200">Contact</span>
             </nav>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
-              Contact CA on Web
+              Contact CA Support India
             </h1>
             <p className="text-gray-300 max-w-xl mx-auto">
               Book a free 30-minute consultation or reach out with any questions. Our expert CA team responds within 2 business hours.

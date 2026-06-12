@@ -5,23 +5,23 @@ import { BreadcrumbSchema } from '@/lib/jsonld';
 import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'About CA on Web – India\'s Trusted CA & CS Platform Since 2009',
+  title: 'About CA Support India – India\'s Trusted CA & CS Platform Since 2009',
   description:
-    'Learn about CA on Web — founded in 2009, 50+ certified CAs & CSs, 10,000+ clients across India. Our mission is to make professional CA services accessible, affordable, and technology-driven for every Indian.',
+    'Learn about CA Support India — founded in 2009, 50+ certified CAs & CSs, 10,000+ clients across India. Our mission is to make professional CA services accessible, affordable, and technology-driven for every Indian.',
   keywords: [
-    'about CA on web', 'CA on web company', 'chartered accountant firm India',
+    'about CA Support India', 'CA Support India company', 'chartered accountant firm India',
     'best CA firm online India', 'trusted CA services India', 'ICAI registered CA',
   ],
   alternates: { canonical: `${BASE_URL}/about` },
   openGraph: {
     ...defaultOpenGraph,
-    title: 'About CA on Web – India\'s Trusted CA & CS Platform Since 2009',
+    title: 'About CA Support India – India\'s Trusted CA & CS Platform Since 2009',
     description: 'Founded 2009. 50+ certified CAs & CSs. 10,000+ clients. Making professional CA services accessible across all of India.',
     url: `${BASE_URL}/about`,
   },
   twitter: {
     ...defaultTwitter,
-    title: 'About CA on Web | Trusted Since 2009',
+    title: 'About CA Support India | Trusted Since 2009',
     description: '50+ certified CAs & CSs. 10,000+ clients. Pan-India CA services.',
   },
 };
@@ -55,7 +55,7 @@ export default function AboutPage() {
               <span className="text-gray-200">About Us</span>
             </nav>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
-              About CA on Web
+              About CA Support India
             </h1>
             <p className="text-gray-300 max-w-2xl mx-auto text-lg">
               India's most trusted online platform for Chartered Accountant and Company Secretary services — making compliance simple since 2009.
@@ -74,7 +74,7 @@ export default function AboutPage() {
                 Built to Make CA Services Accessible to Every Indian
               </h2>
               <p className="text-[var(--muted)] leading-relaxed mb-4">
-                CA on Web was founded in 2009 with a simple yet powerful belief: every individual and business in India — whether in a metro or a tier-3 town — deserves access to qualified, affordable, and technology-driven CA and legal services.
+                CA Support India was founded in 2009 with a simple yet powerful belief: every individual and business in India — whether in a metro or a tier-3 town — deserves access to qualified, affordable, and technology-driven CA and legal services.
               </p>
               <p className="text-[var(--muted)] leading-relaxed mb-6">
                 Lengthy phone calls, sky-high hourly fees, and opacity in billing were the norm. We set out to change that. Today, with over 10,000 satisfied clients and thousands of successful filings across 28 states, we are India's go-to platform for financial compliance done right.

@@ -4,12 +4,18 @@ import Link from 'next/link';
 import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 
 const services = [
-  { label: 'Company Registration', href: '/services' },
-  { label: 'GST Services', href: '/services' },
-  { label: 'Income Tax Return', href: '/services' },
-  { label: 'Trademark Registration', href: '/services' },
-  { label: 'MSME Registration', href: '/services' },
-  { label: 'Import Export Code', href: '/services' },
+  { label: 'Company Registration', href: '/services/company-registration' },
+  { label: 'GST Registration', href: '/services/gst-registration' },
+  { label: 'Income Tax Return', href: '/services/income-tax-return' },
+  { label: 'Trademark Registration', href: '/services/trademark-registration' },
+  { label: 'MSME / Udyam Registration', href: '/services/msme-udyam' },
+  { label: 'ROC Compliance', href: '/services/roc-compliance' },
+  { label: 'Accounting Services', href: '/services/accounting-services' },
+  { label: 'FSSAI Food License', href: '/services/fssai-food-license' },
+  { label: 'TDS Return Filing', href: '/services/tds-return-filing' },
+  { label: 'Payroll Services', href: '/services/payroll-services' },
+  { label: 'GST Return Filing', href: '/services/gst-return-filing' }
+  // { label: 'Import Export Code', href: '/services' },
 ];
 
 export default function Navbar() {
@@ -47,7 +53,7 @@ export default function Navbar() {
               <span className="text-[var(--gold)] font-bold text-lg font-display">CA</span>
             </div>
             <div>
-              <div className="font-display font-bold text-[var(--navy)] text-lg leading-tight">CA on Web</div>
+              <div className="font-display font-bold text-[var(--navy)] text-lg leading-tight">CA Support India</div>
               <div className="text-[10px] text-[var(--muted)] tracking-widest uppercase">Financial Excellence</div>
             </div>
           </Link>
@@ -61,7 +67,7 @@ export default function Navbar() {
                 Services <ChevronDown size={14} className={`transition-transform ${servDropdown ? 'rotate-180' : ''}`} />
               </button>
               {servDropdown && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2 animate-fadeInUp">
+                <div className="absolute top-full left-0 mt-0 w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2 animate-fadeInUp">
                   {services.map(s => (
                     <Link key={s.label} href={s.href}
                       className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-[var(--gold-pale)] hover:text-[var(--navy)] transition-colors">

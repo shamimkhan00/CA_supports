@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Building2, FileText, Receipt, Tag, Package, Globe, ArrowRight, Scale, BarChart3 } from 'lucide-react';
+import { Building2, FileText, Receipt, Tag, Package, Globe, ArrowRight, Scale, BarChart3, Shield } from 'lucide-react';
 
 const services = [
   {
@@ -37,24 +37,45 @@ const services = [
     color: '#0B1F3A',
     tag: null,
   },
+  // {
+  //   icon: Globe,
+  //   title: 'Import Export Code',
+  //   desc: 'Obtain IEC code from DGFT to start importing or exporting goods and services from India.',
+  //   color: '#1a3a5c',
+  //   tag: null,
+  // },
+  // {
+  //   icon: Scale,
+  //   title: 'Legal Compliance',
+  //   desc: 'ROC annual filings, statutory compliance, and corporate governance for companies and LLPs.',
+  //   color: '#0B1F3A',
+  //   tag: null,
+  // },
+  // {
+  //   icon: BarChart3,
+  //   title: 'Accounting & Audit',
+  //   desc: 'Bookkeeping, financial statement preparation, internal audit, and statutory audit services.',
+  //   color: '#1a3a5c',
+  //   tag: null,
+  // },
   {
-    icon: Globe,
-    title: 'Import Export Code',
-    desc: 'Obtain IEC code from DGFT to start importing or exporting goods and services from India.',
+    icon: Scale,
+    title: 'ROC Compliance',
+    desc: 'Annual ROC return filing, financial statements, and MCA compliance for Private Limited Companies and LLPs.',
     color: '#1a3a5c',
     tag: null,
   },
   {
-    icon: Scale,
-    title: 'Legal Compliance',
-    desc: 'ROC annual filings, statutory compliance, and corporate governance for companies and LLPs.',
+    icon: BarChart3,
+    title: 'Accounting Services',
+    desc: 'Monthly bookkeeping, P&L statements, balance sheets, and MIS reporting to keep your finances organized.',
     color: '#0B1F3A',
     tag: null,
   },
   {
-    icon: BarChart3,
-    title: 'Accounting & Audit',
-    desc: 'Bookkeeping, financial statement preparation, internal audit, and statutory audit services.',
+    icon: Shield,
+    title: 'FSSAI Food License',
+    desc: 'State or Central FSSAI registration and licensing for food manufacturers, traders, and operators.',
     color: '#1a3a5c',
     tag: null,
   },
@@ -83,7 +104,7 @@ export default function Services() {
             const Icon = s.icon;
             return (
               <div key={s.title}
-                className="group relative bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer overflow-hidden">
+                className="group relative bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300  overflow-hidden">
                 {/* Top accent */}
                 <div className="absolute top-0 left-0 right-0 h-0.5 bg-[var(--gold)] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-2xl" />
 
@@ -101,9 +122,9 @@ export default function Services() {
                 <h3 className="font-display font-semibold text-[var(--navy)] text-base mb-2 leading-snug">{s.title}</h3>
                 <p className="text-[var(--muted)] text-sm leading-relaxed mb-4">{s.desc}</p>
 
-                <Link href="/services"
+                <Link href="/contact"
                   className="flex items-center gap-1 text-sm font-medium text-[var(--gold)] group-hover:gap-2 transition-all">
-                  Learn more <ArrowRight size={14} />
+                  Get Quote <ArrowRight size={14} />
                 </Link>
               </div>
             );

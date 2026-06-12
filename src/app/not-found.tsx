@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Page Not Found | CA on Web',
-  description: 'The page you are looking for does not exist. Return to CA on Web homepage for expert CA and CS services.',
+  title: 'Page Not Found | CA Support India',
+  description: 'The page you are looking for does not exist. Return to CA Support India homepage for expert CA and CS services.',
   robots: { index: false, follow: false },
 };
 

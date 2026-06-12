@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="w-10 h-10 rounded-lg bg-[var(--gold)] flex items-center justify-center">
               <span className="text-[var(--navy)] font-bold text-lg font-display">CA</span>
             </div>
-            <div className="font-display font-bold text-xl">CA on Web</div>
+            <div className="font-display font-bold text-xl">CA Support India</div>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed mb-6">
             India's trusted platform connecting clients with certified Chartered Accountants and Company Secretaries for all financial & compliance needs.
@@ -110,7 +110,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-gray-400">
-          <p>© 2024 CA on Web Pvt. Ltd. All rights reserved.</p>
+          <p>© 2024 CA Support India Pvt. Ltd. All rights reserved.</p>
           <p>Designed for financial excellence · India</p>
         </div>
       </div>

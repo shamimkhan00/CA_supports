@@ -10,7 +10,7 @@ import { HomeFAQSchema, ReviewsSchema } from '@/lib/jsonld';
 import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'CA on Web | #1 Online CA & CS Services India – Company Registration, GST, ITR',
+  title: 'CA Support India | #1 Online CA & CS Services India – Company Registration, GST, ITR',
   description:
     "India's most trusted CA consultation platform. Register a company in 7 days, file GST returns, ITR, trademark registration & more. 10,000+ happy clients. Expert CAs & CSs. Pan-India, 100% online.",
   keywords: [
@@ -37,23 +37,23 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     q: 'How do I register a company online in India?',
-    a: 'CA on Web registers your Private Limited Company, LLP, or OPC completely online in 7–12 working days. Our CAs handle DSC, DIN, name approval (MCA), and SPICe+ filing — you just provide documents.',
+    a: 'CA Support India registers your Private Limited Company, LLP, or OPC completely online in 7–12 working days. Our CAs handle DSC, DIN, name approval (MCA), and SPICe+ filing — you just provide documents.',
   },
   {
     q: 'What documents are needed for GST registration?',
-    a: 'You need PAN card, Aadhaar, bank account details, business address proof, and a photograph. CA on Web guides you through the entire GST registration process online.',
+    a: 'You need PAN card, Aadhaar, bank account details, business address proof, and a photograph. CA Support India guides you through the entire GST registration process online.',
   },
   {
-    q: 'Can NRIs use CA on Web for ITR filing?',
-    a: 'Yes. CA on Web specialises in NRI ITR filing including income from India, DTAA benefits, and FEMA compliance. Our experts ensure maximum refunds and full compliance.',
+    q: 'Can NRIs use CA Support India for ITR filing?',
+    a: 'Yes. CA Support India specialises in NRI ITR filing including income from India, DTAA benefits, and FEMA compliance. Our experts ensure maximum refunds and full compliance.',
   },
   {
     q: 'How much does trademark registration cost in India?',
-    a: 'CA on Web offers trademark registration starting at ₹6,999 (professional fee + government fee). This covers trademark search, application filing, and handling of any examination reports.',
+    a: 'CA Support India offers trademark registration starting at ₹6,999 (professional fee + government fee). This covers trademark search, application filing, and handling of any examination reports.',
   },
   {
-    q: 'Is CA on Web available across all Indian states?',
-    a: 'Yes — CA on Web serves clients across all 28 states and 8 union territories of India. All services are 100% online with no physical visit required.',
+    q: 'Is CA Support India available across all Indian states?',
+    a: 'Yes — CA Support India serves clients across all 28 states and 8 union territories of India. All services are 100% online with no physical visit required.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function Home() {
               <span className="text-[var(--gold)] text-xs font-semibold tracking-widest uppercase">Why Us</span>
             </div>
             <h2 id="why-us-heading" className="font-display text-3xl md:text-4xl font-bold text-[var(--navy)] mb-6 gold-line">
-              The CA on Web Difference
+              The CA Support India Difference
             </h2>
             <p className="text-[var(--muted)] leading-relaxed mb-8">
               We combine the expertise of seasoned Chartered Accountants with modern technology to deliver financial and legal services that are faster, more affordable, and more transparent than traditional CA firms.
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[var(--navy)] rounded-2xl p-8 text-white">
+          {/* <div className="bg-[var(--navy)] rounded-2xl p-8 text-white">
             <h3 className="font-display text-xl font-bold mb-6 text-[var(--gold)]">Get a Free Quote</h3>
             <div className="space-y-4">
               <div>
@@ -132,6 +132,73 @@ export default function Home() {
               </Link>
               <p className="text-gray-500 text-xs text-center">100% Free · No spam · Quick response</p>
             </div>
+          </div> */}
+          <div className="bg-[var(--navy)] rounded-2xl p-8 text-white">
+            <h3 className="font-display text-xl font-bold mb-4 text-[var(--gold)]">
+              Free Consultation
+            </h3>
+
+            <p className="text-gray-300 text-sm leading-relaxed mb-6">
+              Need help with GST, Income Tax, Company Registration, Trademark, MSME, or
+              other compliance services? Get expert guidance from our team.
+            </p>
+
+            <div className="space-y-3 mb-6">
+              <div className="flex items-center gap-3">
+                <span className="text-[var(--gold)]">✓</span>
+                <span className="text-sm text-gray-300">
+                  Free initial consultation
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-[var(--gold)]">✓</span>
+                <span className="text-sm text-gray-300">
+                  Quick response within 24 hours
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-[var(--gold)]">✓</span>
+                <span className="text-sm text-gray-300">
+                  Professional CA assistance
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-[var(--gold)]">✓</span>
+                <span className="text-sm text-gray-300">
+                  Transparent pricing
+                </span>
+              </div>
+            </div>
+
+            <div className="bg-white/10 rounded-lg p-4 mb-4">
+              <p className="text-xs text-gray-400 mb-1">WhatsApp Consultation</p>
+              <p className="font-semibold text-lg">+91 XXXXX XXXXX</p>
+            </div>
+
+            <div className="space-y-3">
+              <a
+                href="https://wa.me/91XXXXXXXXXX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 w-full py-3 bg-green-600 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+              >
+                Chat on WhatsApp
+              </a>
+
+              <Link
+                href="/contact"
+                className="flex items-center justify-center gap-2 w-full py-3 bg-[var(--gold)] text-[var(--navy)] rounded-lg font-semibold hover:bg-[var(--gold-light)] transition-colors"
+              >
+                Contact Us
+              </Link>
+            </div>
+
+            <p className="text-gray-500 text-xs text-center mt-4">
+              No obligation • Free consultation • Confidential discussion
+            </p>
           </div>
         </div>
       </section>

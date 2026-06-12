@@ -1,5 +1,5 @@
 export const BASE_URL = 'https://www.caonweb.in';
-export const SITE_NAME = 'CA on Web';
+export const SITE_NAME = 'CA Support India';
 export const SITE_TAGLINE = 'Expert CA & CS Services Online India';
 
 export const DEFAULT_OG_IMAGE = `${BASE_URL}/og-image.jpg`;
