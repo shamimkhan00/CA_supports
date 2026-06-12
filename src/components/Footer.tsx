@@ -83,7 +83,7 @@ export default function Footer() {
           <ul className="space-y-4">
             {/* <li className="flex gap-3 text-sm text-gray-400">
               <MapPin size={16} className="text-[var(--gold)] flex-shrink-0 mt-0.5" />
-              <span>123, Financial District, Connaught Place, New Delhi – 110001</span>
+              <span>1 Moti Sil Street, Kolkata, West Bengal 700013, India</span>
             </li> */}
             <li>
               <a href="tel:+919876543210" className="flex gap-3 text-sm text-gray-400 hover:text-[var(--gold)] transition-colors">

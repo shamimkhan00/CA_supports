@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     'TDS return filing',
     'FSSAI license',
     'CA Support India',
-    'caonweb',
+    'casupportindia',
   ],
   authors: [{ name: SITE_NAME, url: BASE_URL }],
   creator: SITE_NAME,

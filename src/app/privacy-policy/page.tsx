@@ -138,7 +138,7 @@ export default function PrivacyPolicyPage() {
               <p>Website: <a href="https://casupportindia.in" className="text-[var(--gold)] hover:underline">casupportindia.in</a></p>
               <p>Email: <a href="mailto:admin.ca.supports@gmail.com" className="text-[var(--gold)] hover:underline">admin.ca.supports@gmail.com</a></p>
               <p>Phone: +91 91233 29927</p>
-              {/* <p>Address: 123 Financial District, Connaught Place, New Delhi – 110001</p> */}
+              {/* <p>Address: 1 Moti Sil Street, Kolkata, West Bengal 700013, India</p> */}
             </div>
           </Section>
 
@@ -151,7 +151,7 @@ export default function PrivacyPolicyPage() {
               <p><strong className="text-[var(--navy)]">Attn: Grievance Redressal Officer</strong></p>
               <p>Designation: Compliance & Data Privacy Officer</p>
               <p>Email: <a href="mailto:grievance@casupportindia.in" className="text-[var(--gold)] hover:underline">grievance@casupportindia.in</a></p>
-              {/* <p>Address: 123 Financial District, Connaught Place, New Delhi – 110001</p> */}
+              {/* <p>Address: 1 Moti Sil Street, Kolkata, West Bengal 700013, India</p> */}
               <p className="text-xs text-gray-500 mt-2">We will acknowledge grievances within 36 hours and resolve them within the timelines mandated by applicable law.</p>
             </div>
           </Section>

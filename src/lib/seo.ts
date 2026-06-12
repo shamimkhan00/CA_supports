@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://www.caonweb.in';
+export const BASE_URL = 'https://www.casupportindia.in';
 export const SITE_NAME = 'CA Support India';
 export const SITE_TAGLINE = 'Expert CA & CS Services Online India';
 
@@ -6,10 +6,10 @@ export const DEFAULT_OG_IMAGE = `${BASE_URL}/og-image.jpg`;
 
 export const CONTACT = {
   phone: '+91 91233 29927',
-  email: 'info@caonweb.in',
-  // address: '123 Financial District, Connaught Place, New Delhi – 110001',
-  city: 'New Delhi',
-  state: 'Delhi',
+  email: 'admin.ca.supports@gmail.com',
+  address: '1 Moti Sil Street, Kolkata, West Bengal 700013, India',
+  city: 'Kolkata',
+  state: 'West Bengal',
   country: 'IN',
   postalCode: '110001',
 };
@@ -32,7 +32,7 @@ export const defaultOpenGraph = {
 /** Reusable Twitter card defaults */
 export const defaultTwitter = {
   card: 'summary_large_image' as const,
-  site: '@CAonWeb',
-  creator: '@CAonWeb',
+  site: '@casupportindia',
+  creator: '@casupportindia',
   images: [DEFAULT_OG_IMAGE],
 };

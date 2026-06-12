@@ -89,7 +89,7 @@ export default function TermsAndConditionsPage() {
 
           <Section title="7. Governing Law & Jurisdiction">
             <p>
-              These Terms and Conditions shall be governed by and interpreted strictly in accordance with the laws of the Republic of India. Any disputes, claims, or legal proceedings arising directly out of your use of this platform or our consultancy shall be subject to the exclusive jurisdiction of the courts located in <strong>New Delhi, India</strong>.
+              These Terms and Conditions shall be governed by and interpreted strictly in accordance with the laws of the Republic of India. Any disputes, claims, or legal proceedings arising directly out of your use of this platform or our consultancy shall be subject to the exclusive jurisdiction of the courts located in <strong>Kolkata, India</strong>.
             </p>
           </Section>
 

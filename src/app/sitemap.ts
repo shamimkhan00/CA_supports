@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://www.caonweb.in';
+const BASE_URL = 'https://www.casupportindia.in';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();

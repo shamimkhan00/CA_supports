@@ -23,7 +23,7 @@ export function OrganizationSchema() {
         email: CONTACT.email,
         address: {
           '@type': 'PostalAddress',
-          streetAddress: '123 Financial District, Connaught Place',
+          streetAddress: '1 Moti Sil Street',
           addressLocality: CONTACT.city,
           addressRegion: CONTACT.state,
           postalCode: CONTACT.postalCode,
@@ -31,8 +31,8 @@ export function OrganizationSchema() {
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 28.6315,
-          longitude: 77.2167,
+          latitude: 22.5726,
+          longitude: 88.3639,
         },
         openingHoursSpecification: [
           {
@@ -43,9 +43,9 @@ export function OrganizationSchema() {
           },
         ],
         sameAs: [
-          'https://www.linkedin.com/company/caonweb',
-          'https://twitter.com/CAonWeb',
-          'https://www.facebook.com/caonweb',
+          'https://www.linkedin.com/company/casupportindia',
+          'https://twitter.com/casupportindia',
+          'https://www.facebook.com/casupportindia',
         ],
         aggregateRating: {
           '@type': 'AggregateRating',

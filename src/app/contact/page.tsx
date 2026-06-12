@@ -7,7 +7,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: 'Contact CA Support India – Book Free CA Consultation | +91 91233 29927',
   description:
-    'Contact CA Support India for a free 30-minute CA consultation. Call +91 91233 29927 or email info@caonweb.in. Office in Connaught Place, New Delhi. Responds within 2 hours. Pan-India service.',
+    'Contact CA Support India for a free 30-minute CA consultation. Call +91 91233 29927 or email info@casupportindia.in. Office in Kolkata, West Bengal. Responds within 2 hours. Pan-India service.',
   keywords: [
     'contact CA Support India', 'CA consultation online', 'book CA appointment',
     'free CA consultation India', 'CA helpline India', 'chartered accountant contact',
