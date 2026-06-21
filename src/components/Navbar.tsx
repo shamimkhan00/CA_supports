@@ -102,14 +102,21 @@ export default function Navbar() {
           </div>
 
           {/* Mobile toggle */}
-          <button className="md:hidden p-2 text-[var(--navy)]" onClick={() => setOpen(!open)}>
+          <button
+            type="button"
+            className="md:hidden p-2 text-[var(--navy)]"
+            aria-label={open ? 'Close navigation menu' : 'Open navigation menu'}
+            aria-expanded={open}
+            aria-controls="mobile-navigation"
+            onClick={() => setOpen(!open)}
+          >
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
 
         {/* Mobile menu */}
         {open && (
-          <div className="md:hidden border-t border-gray-100 bg-white px-6 py-4 space-y-3 animate-fadeInUp">
+          <div id="mobile-navigation" className="md:hidden border-t border-gray-100 bg-white px-6 py-4 space-y-3 animate-fadeInUp">
             <Link href="/" className="block py-2 text-[var(--navy)] font-medium" onClick={() => setOpen(false)}>Home</Link>
             <Link href="/services" className="block py-2 text-[var(--navy)] font-medium" onClick={() => setOpen(false)}>Services</Link>
             <Link href="/about" className="block py-2 text-[var(--navy)] font-medium" onClick={() => setOpen(false)}>About Us</Link>

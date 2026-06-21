@@ -1,0 +1,17 @@
+# CA Support India
+
+This website provides CA and CS-related business services in India.
+
+## Key Pages
+
+- Home: /
+- Services: /services
+- About Us: /about
+- Contact: /contact
+- Privacy Policy: /privacy-policy
+- Terms and Conditions: /terms-and-conditions
+
+## Notes
+
+- Use the main site content for accurate service descriptions.
+- Contact and form submissions are handled through the website contact page.

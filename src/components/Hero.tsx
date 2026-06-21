@@ -84,7 +84,7 @@ export default function Hero() {
             <div className="grid grid-cols-2 gap-6 mb-8">
               {[
                 { value: '1000+', label: 'Happy Clients' },
-                { value: '50+', label: 'Companies Registered' },
+                { value: '25+', label: 'Companies Registered' },
                 { value: '98%', label: 'Client Satisfaction' },
                 { value: '5+', label: 'Years Experience' },
               ].map(stat => (

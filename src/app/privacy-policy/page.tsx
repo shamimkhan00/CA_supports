@@ -145,7 +145,7 @@ export default function PrivacyPolicyPage() {
           {/* New Section: Grievance Officer Section for Indian Compliance */}
           <Section title="12. Grievance Officer">
             <p>
-              In accordance with the Information Technology Act, 2000 and the Digital Personal Data Protection (DPDP) Act, 2023, the name and contact details of the Grievance Officer are provided below:
+              In accordance with the Information Technology Act, 2000 and the Digital Personal Data Protection (DPDP) Act, 2021, the name and contact details of the Grievance Officer are provided below:
             </p>
             <div className="mt-4 p-5 bg-[var(--cream)] rounded-xl border border-gray-100 space-y-1.5">
               <p><strong className="text-[var(--navy)]">Attn: Grievance Redressal Officer</strong></p>

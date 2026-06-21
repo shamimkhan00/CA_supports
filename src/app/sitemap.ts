@@ -31,41 +31,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     // Individual service pages (future-proofed)
-    {
-      url: `${BASE_URL}/services/company-registration`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.85,
-    },
-    {
-      url: `${BASE_URL}/services/gst-registration`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.85,
-    },
-    {
-      url: `${BASE_URL}/services/income-tax-return`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.85,
-    },
-    {
-      url: `${BASE_URL}/services/trademark-registration`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/services/msme-registration`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.75,
-    },
-    {
-      url: `${BASE_URL}/services/import-export-code`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.75,
-    },
+    // {
+    //   url: `${BASE_URL}/services/company-registration`,
+    //   lastModified,
+    //   changeFrequency: 'monthly',
+    //   priority: 0.85,
+    // },
+    // {
+    //   url: `${BASE_URL}/services/gst-registration`,
+    //   lastModified,
+    //   changeFrequency: 'monthly',
+    //   priority: 0.85,
+    // },
+    // {
+    //   url: `${BASE_URL}/services/income-tax-return`,
+    //   lastModified,
+    //   changeFrequency: 'monthly',
+    //   priority: 0.85,
+    // },
+    // {
+    //   url: `${BASE_URL}/services/trademark-registration`,
+    //   lastModified,
+    //   changeFrequency: 'monthly',
+    //   priority: 0.8,
+    // },
+    // {
+    //   url: `${BASE_URL}/services/msme-registration`,
+    //   lastModified,
+    //   changeFrequency: 'monthly',
+    //   priority: 0.75,
+    // },
+    // {
+    //   url: `${BASE_URL}/services/import-export-code`,
+    //   lastModified,
+    //   changeFrequency: 'monthly',
+    //   priority: 0.75,
+    // },
   ];
 }

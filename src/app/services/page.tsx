@@ -3,6 +3,7 @@ import { Building2, FileText, Receipt, Tag, Package, Globe, Scale, BarChart3, Sh
 import Link from 'next/link';
 import { ServicesSchema, BreadcrumbSchema } from '@/lib/jsonld';
 import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo';
+import { ClipboardCheck, MessageSquareText } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'CA & CS Services – Company Registration, GST, ITR, Trademark | CA on Web',
@@ -41,6 +42,20 @@ const allServices = [
   { icon: CreditCard, title: 'TDS Return Filing', price: '₹1,999', time: '2–3 days', desc: 'Quarterly TDS return (Form 24Q/26Q), Form 16/16A generation, and correction statement filing.' },
   { icon: Users, title: 'Payroll Services', price: '₹1,999/mo', time: 'Ongoing', desc: 'End-to-end payroll processing, PF/ESI registration & compliance, payslip generation, and full & final settlement.' },
   { icon: Clock, title: 'GST Return Filing', price: '₹999/mo', time: 'Monthly', desc: 'Monthly GSTR-1, GSTR-3B, and annual GSTR-9 filing with reconciliation and input tax credit optimisation.' },
+  {
+  icon: ClipboardCheck,
+  title: 'Audit & Assurance',
+  price: 'Custom Quote',
+  time: '7–21 days',
+  desc: 'Statutory audit, tax audit, internal audit, and financial assurance services for companies, LLPs, firms, and organizations.',
+},
+{
+  icon: MessageSquareText,
+  title: 'Business Consultation',
+  price: '₹999/session',
+  time: '1–3 days',
+  desc: 'Professional guidance on taxation, compliance, business structure, financial planning, and key business decisions.',
+},
 ];
 
 export default function ServicesPage() {

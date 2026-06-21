@@ -203,42 +203,59 @@ export default function ContactForm() {
                         required
                         className="w-full px-4 py-3 rounded-lg border border-gray-200 text-sm"
                     >
-                        <option value="">
-                            Select a service...
-                        </option>
+                        <option value="">Select a service...</option>
 
                         <option value="company-registration">
                             Company Registration
                         </option>
 
-                        <option value="gst">
+                        <option value="gst-services">
                             GST Services
                         </option>
 
-                        <option value="itr">
+                        <option value="gst-return-filing">
+                            GST Return Filing
+                        </option>
+
+                        <option value="income-tax-return">
                             Income Tax Return
                         </option>
 
-                        <option value="trademark">
+                        <option value="trademark-registration">
                             Trademark Registration
                         </option>
 
-                        <option value="msme">
-                            MSME Registration
+                        <option value="msme-udyam">
+                            MSME / Udyam Registration
                         </option>
 
-                        <option value="iec">
-                            Import Export Code
+                        <option value="roc-compliance">
+                            ROC Compliance
                         </option>
 
-                        <option value="tds">
-                            TDS Return
+                        <option value="tds-return-filing">
+                            TDS Return Filing
                         </option>
 
-                        <option value="accounting">
+                        <option value="accounting-services">
                             Accounting Services
                         </option>
 
+                        <option value="audit-assurance">
+                            Audit & Assurance
+                        </option>
+
+                        <option value="business-consultation">
+                            Business Consultation
+                        </option>
+
+                        <option value="payroll-services">
+                            Payroll Services
+                        </option>
+
+                        <option value="fssai-food-license">
+                            FSSAI Food License
+                        </option>
                         <option value="other">
                             Other
                         </option>

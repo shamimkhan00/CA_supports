@@ -7,7 +7,7 @@ import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo
 export const metadata: Metadata = {
   title: 'About CA Support India – Your Trusted Online CA & CS Platform',
   description:
-    'Learn about CA Support India — founded in 2023, offering expert certified CAs & CSs serving over 1,000 clients across 5 states. Making professional corporate compliance and tax services accessible, affordable, and technology-driven.',
+    'Learn about CA Support India — founded in 2021, offering expert certified CAs & CSs serving over 1,000 clients across 5 states. Making professional corporate compliance and tax services accessible, affordable, and technology-driven.',
   keywords: [
     'about CA Support India', 'CA Support India company', 'chartered accountant firm India',
     'best CA firm online India', 'trusted CA services India', 'ICAI registered CA',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     ...defaultOpenGraph,
     title: 'About CA Support India – Your Trusted Online CA & CS Platform',
-    description: 'Founded 2023. Expert team of CAs & CSs. 1,000+ clients across 5 states. Making professional tax and corporate services accessible and clear.',
+    description: 'Founded 2021. Expert team of CAs & CSs. 1,000+ clients across 5 states. Making professional tax and corporate services accessible and clear.',
     url: `${BASE_URL}/about`,
   },
   twitter: {
@@ -58,7 +58,7 @@ export default function AboutPage() {
               About CA Support India
             </h1>
             <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-              A modern, technology-driven platform for Chartered Accountant and Company Secretary services — simplifying business compliance since 2023.
+              A modern, technology-driven platform for Chartered Accountant and Company Secretary services — simplifying business compliance since 2021.
             </p>
           </div>
         </header>
@@ -74,7 +74,7 @@ export default function AboutPage() {
                 Built to Make CA Services Accessible and Transparent
               </h2>
               <p className="text-[var(--muted)] leading-relaxed mb-4">
-                CA Support India was established in 2023 with a clear objective: to dismantle the complexities of corporate compliance, tax filing, and financial accounting for growing businesses and individuals. 
+                CA Support India was established in 2021 with a clear objective: to dismantle the complexities of corporate compliance, tax filing, and financial accounting for growing businesses and individuals. 
               </p>
               <p className="text-[var(--muted)] leading-relaxed mb-6">
                 Recognizing that traditional accounting workflows often involve opaque pricing and slow response times, we built a digital-first consultancy platform. By combining seasoned professional expertise with streamlined communication channels, we have quickly grown to support over 1,000 trusted clients across 5 states, delivering precision-focused financial solutions.
@@ -86,7 +86,7 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: '2023', label: 'Founded' },
+                { value: '2021', label: 'Founded' },
                 { value: '1,000+', label: 'Clients Served' },
                 { value: '15+', label: 'Expert Team Size' },
                 { value: '5', label: 'States Covered' },

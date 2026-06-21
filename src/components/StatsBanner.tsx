@@ -1,8 +1,8 @@
 const stats = [
   { value: '1000+', label: 'Happy Clients' },
-  { value: '50+', label: 'Companies Registered' },
+  { value: '25+', label: 'Companies Registered' },
   { value: '98%', label: 'Positive Feedback' },
-  { value: '50+', label: 'Certified CA & CS' },
+  { value: '10+', label: 'Certified CA & CS' },
 ];
 
 export default function StatsBanner() {
