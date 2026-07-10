@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     ...defaultTwitter,
     title: `${SITE_NAME} | Expert CA & CS Services Online`,
     description:
-      'Expert CA & CS services online — company registration, GST, ITR, trademark & compliance. 10,000+ clients. Pan-India.',
+      'Expert CA & CS services online — company registration, GST, ITR, trademark & compliance. 1000+ clients. Pan-India.',
   },
   alternates: {
     canonical: BASE_URL,

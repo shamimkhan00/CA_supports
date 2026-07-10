@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, Shield, Clock, Award, CheckCircle } from 'lucide-react';
 
 const badges = [
-  { icon: Shield, text: 'Trusted by 10,000+ clients' },
+  { icon: Shield, text: 'Trusted by 1000+ clients' },
   { icon: Clock, text: 'Fast turnaround' },
   { icon: Award, text: 'Certified experts' },
 ];

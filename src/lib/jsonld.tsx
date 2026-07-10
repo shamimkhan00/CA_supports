@@ -50,7 +50,7 @@ export function OrganizationSchema() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          reviewCount: '10000',
+          reviewCount: '1000',
           bestRating: '5',
           worstRating: '1',
         },

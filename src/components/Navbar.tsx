@@ -40,7 +40,7 @@ export default function Navbar() {
             <a href="tel:+911234567890" className="flex items-center gap-2 hover:text-[var(--gold)] transition-colors">
               <Phone size={14} /> +91 91233 29927
             </a>
-            <a href="mailto:admin.ca.supports@gmail.com" className="hover:text-[var(--gold)] transition-colors">admin.ca.supports@gmail.com</a>
+            <a href="mailto:contact@casupportindia.in" className="hover:text-[var(--gold)] transition-colors">contact@casupportindia.in</a>
           </div>
         </div>
       </div>

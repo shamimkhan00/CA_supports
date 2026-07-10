@@ -146,9 +146,9 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:admin.ca.supports@gmail.com" className="flex gap-3 text-sm text-gray-400 hover:text-[var(--gold)] transition-colors">
+              <a href="mailto:contact@casupportindia.in" className="flex gap-3 text-sm text-gray-400 hover:text-[var(--gold)] transition-colors">
                 <Mail size={16} className="text-[var(--gold)] flex-shrink-0" />
-                admin.ca.supports@gmail.com
+                contact@casupportindia.in
               </a>
             </li>
           </ul>

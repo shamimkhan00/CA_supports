@@ -29,8 +29,11 @@ export async function POST(req: Request) {
         }
 
         await resend.emails.send({
-            from: "Contact Form <onboarding@resend.dev>",
-            to: process.env.CONTACT_EMAIL!,
+            from: "CA Support India <contact@casupportindia.in>",
+            to: [
+                "contact@casupportindia.in",
+                "admin.ca.supports@gmail.com",
+            ],
             subject: `New Lead - ${service}`,
             html: `
         <h2>New Contact Request</h2>

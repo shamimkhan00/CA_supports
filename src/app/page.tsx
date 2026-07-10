@@ -12,7 +12,7 @@ import { BASE_URL, defaultOpenGraph, defaultTwitter, SITE_NAME } from '@/lib/seo
 export const metadata: Metadata = {
   title: 'CA Support India | Fast & Reliable CA Services for Growing Businesses – Company Registration, GST, ITR',
   description:
-    "India's most trusted CA consultation platform. Register a company in 7 days, file GST returns, ITR, trademark registration & more. 10,000+ happy clients. Expert CAs & CSs. Pan-India, 100% online.",
+    "India's most trusted CA consultation platform. Register a company in 7 days, file GST returns, ITR, trademark registration & more. 1000+ happy clients. Expert CAs & CSs. Pan-India, 100% online.",
   keywords: [
     'CA online India', 'company registration online', 'GST registration', 'income tax return',
     'chartered accountant online', 'trademark registration', 'MSME registration', 'CA consultation',
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     ...defaultOpenGraph,
     title: `${SITE_NAME} | Fast & Reliable CA Services for Growing Businesses`,
     description:
-      "India's most trusted CA platform. Register a company in 7 days, GST, ITR, trademark & compliance. 10,000+ clients.",
+      "India's most trusted CA platform. Register a company in 7 days, GST, ITR, trademark & compliance. 1000+ clients.",
     url: BASE_URL,
     type: 'website',
   },
   twitter: {
     ...defaultTwitter,
     title: `${SITE_NAME} | Fast & Reliable CA Services for Growing Businesses`,
-    description: 'Company registration, GST, ITR, trademark. Expert CAs. 10,000+ clients. Pan-India.',
+    description: 'Company registration, GST, ITR, trademark. Expert CAs. 1000+ clients. Pan-India.',
   },
 };
 

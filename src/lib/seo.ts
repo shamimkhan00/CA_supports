@@ -6,7 +6,7 @@ export const DEFAULT_OG_IMAGE = `${BASE_URL}/og-image.jpg`;
 
 export const CONTACT = {
   phone: '+91 91233 29927',
-  email: 'admin.ca.supports@gmail.com',
+  email: 'contact@casupportindia.in',
   address: '1 Moti Sil Street, Kolkata, West Bengal 700013, India',
   city: 'Kolkata',
   state: 'West Bengal',

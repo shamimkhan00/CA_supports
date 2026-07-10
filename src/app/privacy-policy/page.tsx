@@ -110,7 +110,7 @@ export default function PrivacyPolicyPage() {
               <li>Withdraw consent for marketing communications at any time</li>
               <li>Lodge a complaint with the relevant regulatory or data protection authority</li>
             </ul>
-            <p className="mt-3">To exercise any of these rights, contact us at <a href="mailto:admin.ca.supports@gmail.com" className="text-[var(--gold)] hover:underline">admin.ca.supports@gmail.com</a>.</p>
+            <p className="mt-3">To exercise any of these rights, contact us at <a href="mailto:contact@casupportindia.in" className="text-[var(--gold)] hover:underline">contact@casupportindia.in</a>.</p>
           </Section>
 
           <Section title="8. Third-Party Websites">
@@ -136,7 +136,7 @@ export default function PrivacyPolicyPage() {
             <div className="mt-4 p-5 bg-[var(--cream)] rounded-xl border border-gray-100 space-y-1.5">
               <p><strong className="text-[var(--navy)]">CA Support India</strong></p>
               <p>Website: <a href="https://casupportindia.in" className="text-[var(--gold)] hover:underline">casupportindia.in</a></p>
-              <p>Email: <a href="mailto:admin.ca.supports@gmail.com" className="text-[var(--gold)] hover:underline">admin.ca.supports@gmail.com</a></p>
+              <p>Email: <a href="mailto:contact@casupportindia.in" className="text-[var(--gold)] hover:underline">contact@casupportindia.in</a></p>
               <p>Phone: +91 91233 29927</p>
               {/* <p>Address: 1 Moti Sil Street, Kolkata, West Bengal 700013, India</p> */}
             </div>
