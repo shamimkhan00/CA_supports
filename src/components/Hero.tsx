@@ -113,12 +113,12 @@ export default function Hero() {
           </div>
 
           {/* Floating badge */}
-          <div className="absolute -top-4 -right-4 bg-[var(--gold)] text-[var(--navy)] rounded-xl p-3 shadow-xl">
+          {/* <div className="absolute -top-4 -right-4 bg-[var(--gold)] text-[var(--navy)] rounded-xl p-3 shadow-xl">
             <div className="text-center">
               <div className="font-bold text-xl">ISO</div>
               <div className="text-xs font-medium">Certified</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

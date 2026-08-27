@@ -85,7 +85,7 @@ export default function Home() {
               {[
                 { icon: UserCheck, title: 'Verified Experts Only', desc: 'Every CA and CS on our platform is ICAI/ICSI certified and background-verified for your peace of mind.' },
                 { icon: Headphones, title: 'Dedicated Support', desc: 'A dedicated relationship manager handles your account end-to-end, with real-time status updates via WhatsApp.' },
-                { icon: Lock, title: 'Secure & Confidential', desc: 'Your financial data is encrypted and never shared with third parties. We are ISO 27001 compliant.' },
+                { icon: Lock, title: 'Secure & Confidential', desc: 'Your financial data is encrypted and never shared with third parties.' },
               ].map(({ icon: Icon, title, desc }) => (
                 <div key={title} className="flex gap-4">
                   <div className="w-11 h-11 rounded-xl bg-[var(--gold-pale)] flex items-center justify-center flex-shrink-0" aria-hidden="true">

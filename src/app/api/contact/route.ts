@@ -32,9 +32,8 @@ export async function POST(req: Request) {
             from: "CA Support India <contact@casupportindia.in>",
             to: [
                 "contact@casupportindia.in",
-                "admin.ca.supports@gmail.com",
             ],
-            subject: `New Lead - ${service}`,
+            subject: `${service} - ${name} - New Lead`,
             html: `
         <h2>New Contact Request</h2>
 
